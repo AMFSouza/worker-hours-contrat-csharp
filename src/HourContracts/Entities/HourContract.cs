@@ -6,14 +6,14 @@ namespace HourContracts.Entities
 {
     class HourContract
     {
-        public DateTime date { get; set; }
+        public DateTime Date { get; set; }
         public double ValuePerHour { get; set; }
         public int Hours { get; set; }
         public HourContract() { }
 
         public HourContract(DateTime date, double valuePerHour, int hours)
         {
-            this.date = date;
+            Date = date;
             ValuePerHour = valuePerHour;
             Hours = hours;
         }
